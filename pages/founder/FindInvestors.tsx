@@ -1,23 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GlassCard } from '../../components/GlassCard';
 import { Modal } from '../../components/Modal';
 import { Search, MapPin, Briefcase, DollarSign, ExternalLink, Filter, Globe, Layers } from 'lucide-react';
-import { MOCK_INVESTOR_DIRECTORY } from '../../constants';
+import { dataService } from '../../services/dataService';
 import { InvestorDirectoryItem } from '../../types';
 
 export const FindInvestors: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedType, setSelectedType] = useState('');
   const [selectedInvestor, setSelectedInvestor] = useState<InvestorDirectoryItem | null>(null);
+  const [investors, setInvestors] = useState<InvestorDirectoryItem[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const filteredInvestors = MOCK_INVESTOR_DIRECTORY.filter(inv => {
+  useEffect(() => {
+    const loadInvestors = async () => {
+      const data = await dataService.getInvestorDirectory();
+      setInvestors(data);
+      setLoading(false);
+    };
+    loadInvestors();
+  }, []);
+
+  const filteredInvestors = investors.filter(inv => {
     const matchesSearch = inv.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
                           inv.thesis.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesType = selectedType === '' || inv.type === selectedType;
     return matchesSearch && matchesType;
   });
 
-  const investorTypes = Array.from(new Set(MOCK_INVESTOR_DIRECTORY.map(i => i.type))).sort();
+  const investorTypes = Array.from(new Set(investors.map(i => i.type))).sort();
 
   return (
     <div className="space-y-6">
@@ -55,79 +66,85 @@ export const FindInvestors: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredInvestors.map(inv => (
-          <GlassCard 
-            key={inv.id} 
-            hoverEffect 
-            className="flex flex-col gap-4 h-full cursor-pointer group"
-            onClick={() => setSelectedInvestor(inv)}
-          >
-             <div className="flex justify-between items-start">
-               <div className="w-12 h-12 rounded bg-indigo-500/20 flex items-center justify-center text-indigo-400 font-bold text-lg border border-indigo-500/20">
-                 {inv.name[0]}
+      {loading ? (
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredInvestors.map(inv => (
+            <GlassCard 
+              key={inv.id} 
+              hoverEffect 
+              className="flex flex-col gap-4 h-full cursor-pointer group"
+              onClick={() => setSelectedInvestor(inv)}
+            >
+               <div className="flex justify-between items-start">
+                 <div className="w-12 h-12 rounded bg-indigo-500/20 flex items-center justify-center text-indigo-400 font-bold text-lg border border-indigo-500/20">
+                   {inv.name[0]}
+                 </div>
+                 <div className="flex items-center gap-1 text-emerald-400 text-xs font-bold bg-emerald-400/10 px-2 py-1 rounded border border-emerald-400/20">
+                   {inv.match_score || 0}% Match
+                 </div>
                </div>
-               <div className="flex items-center gap-1 text-emerald-400 text-xs font-bold bg-emerald-400/10 px-2 py-1 rounded border border-emerald-400/20">
-                 {inv.match_score}% Match
+               
+               <div>
+                 <h3 className="text-xl font-bold text-white truncate group-hover:text-blue-400 transition-colors" title={inv.name}>{inv.name}</h3>
+                 <div className="flex items-center gap-2 text-sm text-slate-400 mt-1">
+                   <Briefcase size={14} className="text-blue-400" /> 
+                   <span className="truncate">{inv.type}</span>
+                   <span className="w-1 h-1 rounded-full bg-slate-600"></span>
+                   <MapPin size={14} className="text-blue-400" />
+                   <span className="truncate">{inv.hq}</span>
+                 </div>
                </div>
-             </div>
-             
-             <div>
-               <h3 className="text-xl font-bold text-white truncate group-hover:text-blue-400 transition-colors" title={inv.name}>{inv.name}</h3>
-               <div className="flex items-center gap-2 text-sm text-slate-400 mt-1">
-                 <Briefcase size={14} className="text-blue-400" /> 
-                 <span className="truncate">{inv.type}</span>
-                 <span className="w-1 h-1 rounded-full bg-slate-600"></span>
-                 <MapPin size={14} className="text-blue-400" />
-                 <span className="truncate">{inv.hq}</span>
+
+               <div className="bg-white/5 rounded-lg p-3 border border-white/5">
+                  <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed">
+                    {inv.thesis}
+                  </p>
                </div>
-             </div>
 
-             <div className="bg-white/5 rounded-lg p-3 border border-white/5">
-                <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed">
-                  {inv.thesis}
-                </p>
-             </div>
+               <div className="flex flex-wrap gap-2">
+                 {inv.stages.slice(0, 3).map((stage, i) => (
+                   <span key={i} className="text-[10px] uppercase font-semibold px-2 py-1 rounded bg-slate-800 border border-slate-700 text-slate-300">
+                     {stage}
+                   </span>
+                 ))}
+                 {inv.stages.length > 3 && <span className="text-[10px] px-2 py-1 text-slate-500">+{inv.stages.length - 3}</span>}
+               </div>
 
-             <div className="flex flex-wrap gap-2">
-               {inv.stages.slice(0, 3).map((stage, i) => (
-                 <span key={i} className="text-[10px] uppercase font-semibold px-2 py-1 rounded bg-slate-800 border border-slate-700 text-slate-300">
-                   {stage}
-                 </span>
-               ))}
-               {inv.stages.length > 3 && <span className="text-[10px] px-2 py-1 text-slate-500">+{inv.stages.length - 3}</span>}
-             </div>
+               <div className="flex items-center gap-2 text-xs text-slate-400 mt-auto pt-4 border-t border-white/5">
+                  <DollarSign size={14} className="text-emerald-500" />
+                  <span>Check: <span className="text-slate-200 font-medium">{inv.cheque_range}</span></span>
+               </div>
 
-             <div className="flex items-center gap-2 text-xs text-slate-400 mt-auto pt-4 border-t border-white/5">
-                <DollarSign size={14} className="text-emerald-500" />
-                <span>Check: <span className="text-slate-200 font-medium">{inv.cheque_range}</span></span>
-             </div>
-
-             <div className="flex gap-2 mt-2">
-               <button 
-                 onClick={(e) => {
-                   e.stopPropagation();
-                   // Action logic could go here
-                 }}
-                 className="flex-1 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium text-sm transition-colors shadow-lg shadow-blue-900/20"
-               >
-                 Request Intro
-               </button>
-               {inv.website && (
-                 <a 
-                   href={inv.website} 
-                   target="_blank" 
-                   rel="noopener noreferrer"
-                   onClick={(e) => e.stopPropagation()}
-                   className="p-2 bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white rounded-lg transition-colors border border-white/5"
+               <div className="flex gap-2 mt-2">
+                 <button 
+                   onClick={(e) => {
+                     e.stopPropagation();
+                     // Action logic could go here
+                   }}
+                   className="flex-1 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium text-sm transition-colors shadow-lg shadow-blue-900/20"
                  >
-                   <ExternalLink size={18} />
-                 </a>
-               )}
-             </div>
-          </GlassCard>
-        ))}
-      </div>
+                   Request Intro
+                 </button>
+                 {inv.website && (
+                   <a 
+                     href={inv.website} 
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     onClick={(e) => e.stopPropagation()}
+                     className="p-2 bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white rounded-lg transition-colors border border-white/5"
+                   >
+                     <ExternalLink size={18} />
+                   </a>
+                 )}
+               </div>
+            </GlassCard>
+          ))}
+        </div>
+      )}
 
       <Modal 
         isOpen={!!selectedInvestor} 

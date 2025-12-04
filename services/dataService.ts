@@ -1,6 +1,6 @@
 import { supabase } from '../supabaseClient';
-import { MOCK_DEALS, MOCK_STARTUPS, MOCK_DOCS, MOCK_THREADS } from '../constants';
-import { Startup, Deal, Document, Thread } from '../types';
+import { MOCK_DEALS, MOCK_STARTUPS, MOCK_DOCS, MOCK_THREADS, MOCK_INVESTOR_DIRECTORY } from '../constants';
+import { Startup, Deal, Document, Thread, InvestorDirectoryItem } from '../types';
 
 // Helper to simulate network delay
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
@@ -61,5 +61,14 @@ export const dataService = {
   getThreads: async (): Promise<Thread[]> => {
       await delay(300);
       return MOCK_THREADS;
+  },
+
+  getInvestorDirectory: async (): Promise<InvestorDirectoryItem[]> => {
+    if (supabase) {
+      const { data, error } = await supabase.from('investor_directory').select('*');
+      if (!error && data) return data;
+    }
+    await delay(500);
+    return MOCK_INVESTOR_DIRECTORY;
   }
 };
