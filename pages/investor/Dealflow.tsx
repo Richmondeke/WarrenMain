@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Deal, DealStage, StartupStage } from '../../types';
 import { dataService } from '../../services/dataService';
 import { StartupCard } from '../../components/StartupCard';
-import { Filter, Search, Layers, Tag, ChevronDown } from 'lucide-react';
+import { EmptyState } from '../../components/EmptyState';
+import { Filter, Search, Layers, Tag, ChevronDown, Inbox } from 'lucide-react';
 
 export const Dealflow: React.FC = () => {
   const [deals, setDeals] = useState<Deal[]>([]);
@@ -38,6 +39,12 @@ export const Dealflow: React.FC = () => {
     (selectedStage === '' || d.startup.stage === selectedStage) &&
     d.stage !== DealStage.PASSED
   );
+
+  const clearFilters = () => {
+    setFilterScore(0);
+    setSelectedSector('');
+    setSelectedStage('');
+  };
 
   return (
     <div className="space-y-8">
@@ -123,15 +130,13 @@ export const Dealflow: React.FC = () => {
               />
             ))
           ) : (
-            <div className="col-span-full flex flex-col items-center justify-center py-20 text-slate-500">
-              <Filter size={48} className="mb-4 opacity-20" />
-              <p>No deals match your criteria.</p>
-              <button 
-                onClick={() => { setFilterScore(0); setSelectedSector(''); setSelectedStage(''); }}
-                className="mt-4 text-blue-400 hover:text-blue-300 text-sm font-medium"
-              >
-                Clear Filters
-              </button>
+            <div className="col-span-full">
+              <EmptyState 
+                icon={Inbox}
+                title="No deals found"
+                description="We couldn't find any deals matching your current filters. Try adjusting your criteria."
+                action={{ label: "Clear Filters", onClick: clearFilters }}
+              />
             </div>
           )}
         </div>

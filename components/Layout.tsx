@@ -12,6 +12,7 @@ export const Layout: React.FC = () => {
   const { user, role, switchRole } = useUser();
   const location = useLocation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const isAdmin = user.email === 'ekerichmond@gmail.com';
 
   const navItems = [...NAV_ITEMS[role], ...NAV_ITEMS.COMMON];
 
@@ -63,16 +64,18 @@ export const Layout: React.FC = () => {
             })}
           </nav>
 
-          {/* Role Switcher */}
-          <div className="mt-auto pt-6 border-t border-white/5">
-             <button
-              onClick={switchRole}
-              className="w-full flex items-center justify-center gap-2 p-3 rounded-lg bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-medium shadow-lg shadow-blue-900/20 transition-all"
-            >
-              <Zap size={18} />
-              Switch to {role === Role.INVESTOR ? 'Founder' : 'Investor'}
-            </button>
-          </div>
+          {/* Role Switcher - Only for Admin */}
+          {isAdmin && (
+            <div className="mt-auto pt-6 border-t border-white/5">
+               <button
+                onClick={switchRole}
+                className="w-full flex items-center justify-center gap-2 p-3 rounded-lg bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-medium shadow-lg shadow-blue-900/20 transition-all"
+              >
+                <Zap size={18} />
+                Switch to {role === Role.INVESTOR ? 'Founder' : 'Investor'}
+              </button>
+            </div>
+          )}
         </div>
       </aside>
 

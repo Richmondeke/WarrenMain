@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Deal, DealStage } from '../../types';
 import { dataService } from '../../services/dataService';
 import { GlassCard } from '../../components/GlassCard';
+import { EmptyState } from '../../components/EmptyState';
 import { clsx } from 'clsx';
 
 const COLUMNS = [
@@ -36,24 +37,30 @@ export const Tracker: React.FC = () => {
 
               {/* Drop Zone */}
               <div className="flex-1 bg-white/[0.02] rounded-2xl border border-white/5 p-3 space-y-3 overflow-y-auto">
-                {colDeals.map(deal => (
-                  <GlassCard key={deal.id} className="p-4 cursor-grab active:cursor-grabbing hover:border-blue-500/30">
-                    <div className="flex justify-between mb-2">
-                      <span className="text-xs text-blue-400 font-medium">{deal.startup.sector}</span>
-                      {deal.is_shortlisted && <span className="text-yellow-400 text-xs">★</span>}
-                    </div>
-                    <h4 className="font-bold text-white mb-1">{deal.startup.name}</h4>
-                    <p className="text-xs text-slate-400 line-clamp-2">{deal.startup.description}</p>
-                    <div className="mt-3 flex justify-between items-center pt-2 border-t border-white/5">
-                      <span className="text-xs text-slate-500">
-                        {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', notation: 'compact' }).format(deal.startup.ask)}
-                      </span>
-                      <div className="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-[10px] border border-white/10">
-                        {deal.startup.name[0]}
+                {colDeals.length > 0 ? (
+                  colDeals.map(deal => (
+                    <GlassCard key={deal.id} className="p-4 cursor-grab active:cursor-grabbing hover:border-blue-500/30">
+                      <div className="flex justify-between mb-2">
+                        <span className="text-xs text-blue-400 font-medium">{deal.startup.sector}</span>
+                        {deal.is_shortlisted && <span className="text-yellow-400 text-xs">★</span>}
                       </div>
-                    </div>
-                  </GlassCard>
-                ))}
+                      <h4 className="font-bold text-white mb-1">{deal.startup.name}</h4>
+                      <p className="text-xs text-slate-400 line-clamp-2">{deal.startup.description}</p>
+                      <div className="mt-3 flex justify-between items-center pt-2 border-t border-white/5">
+                        <span className="text-xs text-slate-500">
+                          {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', notation: 'compact' }).format(deal.startup.ask)}
+                        </span>
+                        <div className="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-[10px] border border-white/10">
+                          {deal.startup.name[0]}
+                        </div>
+                      </div>
+                    </GlassCard>
+                  ))
+                ) : (
+                  <div className="flex flex-col items-center justify-center h-32 text-slate-600 border border-dashed border-white/5 rounded-xl mt-2">
+                    <span className="text-xs font-medium">No deals</span>
+                  </div>
+                )}
               </div>
             </div>
           );

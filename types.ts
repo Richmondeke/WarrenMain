@@ -22,6 +22,7 @@ export interface Profile {
   id: string;
   role: Role;
   name: string;
+  email?: string;
   firm_name?: string; // For Investors
   title?: string;
   avatar_url?: string;

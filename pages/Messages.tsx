@@ -3,7 +3,8 @@ import { GlassCard } from '../components/GlassCard';
 import { Thread, Message } from '../types';
 import { dataService } from '../services/dataService';
 import { useUser } from '../context/UserContext';
-import { Send, Sparkles } from 'lucide-react';
+import { EmptyState } from '../components/EmptyState';
+import { Send, Sparkles, MessageSquare } from 'lucide-react';
 
 export const Messages: React.FC = () => {
   const { user } = useUser();
@@ -11,24 +12,22 @@ export const Messages: React.FC = () => {
   const [selectedThread, setSelectedThread] = useState<Thread | null>(null);
   const [inputText, setInputText] = useState('');
   const [messages, setMessages] = useState<Message[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    dataService.getThreads().then((data) => {
+    dataService.getThreads(user.id).then((data) => {
       setThreads(data);
       if (data.length > 0) setSelectedThread(data[0]);
+      setLoading(false);
     });
-  }, []);
+  }, [user.id]);
 
   // Simulating message load when thread changes
   useEffect(() => {
     if (selectedThread) {
-      // In real app, fetch messages for thread
-      setMessages([
-        { id: 'm1', thread_id: selectedThread.id, sender_id: 'other', content: 'Hi, excited to connect!', created_at: new Date(Date.now() - 100000).toISOString() },
-        { id: 'm2', thread_id: selectedThread.id, sender_id: user.id, content: 'Likewise. Looking forward to sharing our vision.', created_at: new Date().toISOString() }
-      ]);
+      dataService.getMessages(selectedThread.id).then(setMessages);
     }
-  }, [selectedThread, user.id]);
+  }, [selectedThread]);
 
   const handleSend = () => {
     if (!inputText.trim() || !selectedThread) return;
@@ -55,7 +54,12 @@ export const Messages: React.FC = () => {
           <h3 className="font-bold text-white">Inbox</h3>
         </div>
         <div className="flex-1 overflow-y-auto">
-          {threads.map(thread => {
+          {loading ? (
+             <div className="p-4 flex justify-center">
+                 <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-500"></div>
+             </div>
+          ) : threads.length > 0 ? (
+            threads.map(thread => {
              const otherParticipant = thread.participants.find(p => p.id !== user.id) || thread.participants[0];
              return (
               <div 
@@ -64,18 +68,28 @@ export const Messages: React.FC = () => {
                 className={`p-4 border-b border-white/5 cursor-pointer hover:bg-white/5 transition-colors ${selectedThread?.id === thread.id ? 'bg-white/[0.08]' : ''}`}
               >
                 <div className="flex items-center gap-3">
-                  <img src={otherParticipant.avatar_url} alt="" className="w-10 h-10 rounded-full" />
+                  <img src={otherParticipant.avatar_url} alt="" className="w-10 h-10 rounded-full bg-slate-700" />
                   <div className="flex-1 min-w-0">
                     <div className="flex justify-between">
                       <h4 className="font-semibold text-slate-200 truncate">{otherParticipant.name}</h4>
-                      <span className="text-xs text-slate-500">2h</span>
+                      <span className="text-xs text-slate-500">
+                          {thread.last_message ? new Date(thread.last_message.created_at).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) : ''}
+                      </span>
                     </div>
-                    <p className="text-xs text-slate-400 truncate">{thread.last_message?.content}</p>
+                    <p className="text-xs text-slate-400 truncate">{thread.last_message?.content || 'No messages yet'}</p>
                   </div>
                 </div>
               </div>
              );
-          })}
+          })) : (
+              <div className="p-4">
+                  <EmptyState 
+                    title="No messages" 
+                    description="You haven't started any conversations yet."
+                    className="border-none bg-transparent"
+                  />
+              </div>
+          )}
         </div>
       </GlassCard>
 
@@ -90,16 +104,22 @@ export const Messages: React.FC = () => {
             </div>
             
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
-              {messages.map(msg => {
-                const isMe = msg.sender_id === user.id;
-                return (
-                  <div key={msg.id} className={`flex ${isMe ? 'justify-end' : 'justify-start'}`}>
-                    <div className={`max-w-[70%] p-3 rounded-2xl text-sm ${isMe ? 'bg-blue-600 text-white rounded-br-none' : 'bg-slate-800 text-slate-200 rounded-bl-none'}`}>
-                      {msg.content}
-                    </div>
+              {messages.length > 0 ? (
+                  messages.map(msg => {
+                    const isMe = msg.sender_id === user.id;
+                    return (
+                      <div key={msg.id} className={`flex ${isMe ? 'justify-end' : 'justify-start'}`}>
+                        <div className={`max-w-[70%] p-3 rounded-2xl text-sm ${isMe ? 'bg-blue-600 text-white rounded-br-none' : 'bg-slate-800 text-slate-200 rounded-bl-none'}`}>
+                          {msg.content}
+                        </div>
+                      </div>
+                    );
+                  })
+              ) : (
+                  <div className="h-full flex items-center justify-center">
+                      <p className="text-slate-500 text-sm">Start the conversation by sending a message.</p>
                   </div>
-                );
-              })}
+              )}
             </div>
 
             {/* AI Suggestion Chip */}
@@ -121,7 +141,7 @@ export const Messages: React.FC = () => {
                   onChange={(e) => setInputText(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && handleSend()}
                   placeholder="Type a message..."
-                  className="flex-1 bg-slate-900/50 border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500/50"
+                  className="flex-1 bg-slate-900/50 border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500/50 text-slate-200"
                 />
                 <button 
                   onClick={handleSend}
@@ -133,8 +153,9 @@ export const Messages: React.FC = () => {
             </div>
           </>
         ) : (
-          <div className="flex items-center justify-center h-full text-slate-500">
-            Select a thread to start messaging
+          <div className="flex flex-col items-center justify-center h-full text-slate-500">
+            <MessageSquare size={48} className="mb-4 opacity-20" />
+            <p>Select a thread to start messaging</p>
           </div>
         )}
       </GlassCard>

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { GlassCard } from '../../components/GlassCard';
 import { Modal } from '../../components/Modal';
-import { Search, MapPin, Briefcase, DollarSign, ExternalLink, Filter, Globe, Layers } from 'lucide-react';
+import { EmptyState } from '../../components/EmptyState';
+import { Search, MapPin, Briefcase, DollarSign, ExternalLink, Filter, Globe, Layers, UserX } from 'lucide-react';
 import { dataService } from '../../services/dataService';
 import { InvestorDirectoryItem } from '../../types';
 
@@ -70,7 +71,7 @@ export const FindInvestors: React.FC = () => {
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
         </div>
-      ) : (
+      ) : filteredInvestors.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredInvestors.map(inv => (
             <GlassCard 
@@ -143,6 +144,15 @@ export const FindInvestors: React.FC = () => {
                </div>
             </GlassCard>
           ))}
+        </div>
+      ) : (
+        <div className="py-12">
+           <EmptyState 
+             icon={UserX}
+             title="No Investors Found"
+             description="We couldn't find any investors matching your search criteria. Try broadening your search terms."
+             action={{ label: "Clear Search", onClick: () => { setSearchTerm(''); setSelectedType(''); } }}
+           />
         </div>
       )}
 

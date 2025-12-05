@@ -26,6 +26,7 @@ export const MOCK_INVESTOR: Profile = {
   id: 'inv_1',
   role: Role.INVESTOR,
   name: 'Warren Buffett (AI)',
+  email: 'ekerichmond@gmail.com',
   firm_name: 'Berkshire Next',
   title: 'Managing Partner',
   avatar_url: 'https://picsum.photos/200/200?random=1'
@@ -35,6 +36,7 @@ export const MOCK_FOUNDER: Profile = {
   id: 'fnd_1',
   role: Role.FOUNDER,
   name: 'Elon Musk (AI)',
+  email: 'ekerichmond@gmail.com',
   firm_name: 'Mars Express',
   title: 'CEO',
   avatar_url: 'https://picsum.photos/200/200?random=2'

@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { GlassCard } from '../../components/GlassCard';
 import { Document } from '../../types';
 import { dataService } from '../../services/dataService';
-import { FileText, CheckCircle, Upload, Clock } from 'lucide-react';
+import { EmptyState } from '../../components/EmptyState';
+import { FileText, CheckCircle, Upload, Clock, File } from 'lucide-react';
 import { clsx } from 'clsx';
 
 export const DealRoom: React.FC = () => {
@@ -16,9 +17,14 @@ export const DealRoom: React.FC = () => {
 
   const handleSimulateUpload = async () => {
     setUploading(true);
-    const newDoc = await dataService.uploadDocument({ name: 'New Due Diligence Item', type: 'PDF', size: '3.2 MB' });
-    setDocs(prev => [newDoc, ...prev]);
-    setUploading(false);
+    try {
+        const newDoc = await dataService.uploadDocument({ name: 'New Due Diligence Item', type: 'PDF', size: '3.2 MB' });
+        setDocs(prev => [newDoc, ...prev]);
+    } catch (e) {
+        console.error("Upload failed", e);
+    } finally {
+        setUploading(false);
+    }
   };
 
   return (
@@ -55,27 +61,36 @@ export const DealRoom: React.FC = () => {
                   {uploading ? 'Uploading...' : 'Upload File'}
                 </button>
              </div>
-             <div className="space-y-2">
-                {docs.map(doc => (
-                  <div key={doc.id} className="flex items-center justify-between p-4 rounded-lg bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
-                    <div className="flex items-center gap-4">
-                      <div className="w-10 h-10 rounded bg-red-500/10 flex items-center justify-center text-red-400">
-                        <FileText size={20} />
+             {docs.length > 0 ? (
+                 <div className="space-y-2">
+                    {docs.map(doc => (
+                      <div key={doc.id} className="flex items-center justify-between p-4 rounded-lg bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                        <div className="flex items-center gap-4">
+                          <div className="w-10 h-10 rounded bg-red-500/10 flex items-center justify-center text-red-400">
+                            <FileText size={20} />
+                          </div>
+                          <div>
+                            <p className="font-medium text-slate-200">{doc.name}</p>
+                            <p className="text-xs text-slate-500">{doc.size} • {new Date(doc.uploaded_at).toLocaleDateString()}</p>
+                          </div>
+                        </div>
+                        <span className={clsx(
+                          "text-xs px-2 py-1 rounded border",
+                          doc.status === 'Ready' ? "border-emerald-500/20 text-emerald-400 bg-emerald-500/10" : "border-yellow-500/20 text-yellow-400 bg-yellow-500/10"
+                        )}>
+                          {doc.status}
+                        </span>
                       </div>
-                      <div>
-                        <p className="font-medium text-slate-200">{doc.name}</p>
-                        <p className="text-xs text-slate-500">{doc.size} • {new Date(doc.uploaded_at).toLocaleDateString()}</p>
-                      </div>
-                    </div>
-                    <span className={clsx(
-                      "text-xs px-2 py-1 rounded border",
-                      doc.status === 'Ready' ? "border-emerald-500/20 text-emerald-400 bg-emerald-500/10" : "border-yellow-500/20 text-yellow-400 bg-yellow-500/10"
-                    )}>
-                      {doc.status}
-                    </span>
-                  </div>
-                ))}
-             </div>
+                    ))}
+                 </div>
+             ) : (
+                 <EmptyState 
+                    icon={File}
+                    title="No Documents Uploaded"
+                    description="Your data room is empty. Upload documents to share with interested investors."
+                    action={{ label: "Upload First Document", onClick: handleSimulateUpload }}
+                 />
+             )}
           </div>
         ) : (
           <div className="space-y-6">
