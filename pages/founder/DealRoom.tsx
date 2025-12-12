@@ -5,20 +5,29 @@ import { dataService } from '../../services/dataService';
 import { EmptyState } from '../../components/EmptyState';
 import { FileText, CheckCircle, Upload, Clock, File } from 'lucide-react';
 import { clsx } from 'clsx';
+import { MOCK_STARTUPS } from '../../constants';
 
 export const DealRoom: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'docs' | 'checklist'>('docs');
   const [docs, setDocs] = useState<Document[]>([]);
   const [uploading, setUploading] = useState(false);
 
+  // Use the ID of the first mock startup which is now a valid UUID
+  const currentStartupId = MOCK_STARTUPS[0].id;
+
   useEffect(() => {
-    dataService.getDocuments('s_1').then(setDocs);
-  }, []);
+    dataService.getDocuments(currentStartupId).then(setDocs);
+  }, [currentStartupId]);
 
   const handleSimulateUpload = async () => {
     setUploading(true);
     try {
-        const newDoc = await dataService.uploadDocument({ name: 'New Due Diligence Item', type: 'PDF', size: '3.2 MB' });
+        const newDoc = await dataService.uploadDocument({ 
+            startup_id: currentStartupId,
+            name: 'New Due Diligence Item', 
+            type: 'PDF', 
+            size: '3.2 MB' 
+        });
         setDocs(prev => [newDoc, ...prev]);
     } catch (e) {
         console.error("Upload failed", e);
