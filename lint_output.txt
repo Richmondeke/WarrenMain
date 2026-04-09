@@ -1,0 +1,110 @@
+
+> warrenintel@0.1.0 lint
+> eslint
+
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/app/api/analyze-report/route.ts
+  86:9   error    'tempFilePath' is never reassigned. Use 'const' instead  prefer-const
+  86:9   warning  'tempFilePath' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  87:9   error    'uploadResult' is never reassigned. Use 'const' instead  prefer-const
+  87:9   warning  'uploadResult' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  87:23  error    Unexpected any. Specify a different type                 @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/app/api/chat-report/route.ts
+  44:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  81:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/app/results/page.tsx
+   5:10  warning  'ChevronDown' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+  16:54  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     @typescript-eslint/no-explicit-any
+  26:17  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/app/results/page.tsx:26:17
+  24 |             try {
+  25 |                 const parsed = JSON.parse(storedData);
+> 26 |                 setAnalysisData(parsed.data);
+     |                 ^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  27 |                 setCompanyName(parsed.companyName || "Unknown Company");
+  28 |             } catch (e) {
+  29 |                 console.error("Failed to parse analysis data from session storage:", e);  react-hooks/set-state-in-effect
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/CompanyTable.tsx
+  94:13  error  'result' is never reassigned. Use 'const' instead  prefer-const
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/DashboardView.tsx
+  4:37  warning  'Region' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/LandingPage.tsx
+  104:41   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  108:105  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  178:68   error  Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/UploadDropzone.tsx
+  31:8   warning  React Hook useCallback has a missing dependency: 'handleFile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  72:23  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/auth/AuthModal.tsx
+  25:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/company/AgmSummary.tsx
+  32:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/company/CompanyClientPage.tsx
+  31:54  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  58:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/company/PriceChart.tsx
+   47:8   warning  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  166:62  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/company/ReportChat.tsx
+  66:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/company/RiskFlags.tsx
+  34:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/layout/TopNav.tsx
+   4:24  warning  'User' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+  51:41  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/watchlist/WatchlistClient.tsx
+  22:13  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/components/watchlist/WatchlistClient.tsx:22:13
+  20 |
+  21 |         if (!user) {
+> 22 |             setLoadingData(false);
+     |             ^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  23 |             return;
+  24 |         }
+  25 |  react-hooks/set-state-in-effect
+  54:27  warning  'normalized' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/lib/financial-data.ts
+  323:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/lib/firebase/AuthContext.tsx
+  4:62  warning  'signInWithEmailAndPassword' is defined but never used      @typescript-eslint/no-unused-vars
+  4:90  warning  'createUserWithEmailAndPassword' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/src/lib/stripe.ts
+  4:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/mac/.gemini/antigravity/scratch/warrenintel/test-africa.js
+  1:22  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 34 problems (23 errors, 11 warnings)
+  3 errors and 0 warnings potentially fixable with the `--fix` option.
+

@@ -1,0 +1,866 @@
+[
+  [
+    "USA",
+    4289
+  ],
+  [
+    "Canada",
+    1589
+  ],
+  [
+    "Global",
+    841
+  ],
+  [
+    "UK",
+    832
+  ],
+  [
+    "India",
+    754
+  ],
+  [
+    "Australia",
+    743
+  ],
+  [
+    "Germany",
+    693
+  ],
+  [
+    "France",
+    631
+  ],
+  [
+    "China",
+    618
+  ],
+  [
+    "Israel",
+    424
+  ],
+  [
+    "Brazil",
+    375
+  ],
+  [
+    "Japan",
+    322
+  ],
+  [
+    "Austria",
+    288
+  ],
+  [
+    "Argentina",
+    251
+  ],
+  [
+    "Belgium",
+    246
+  ],
+  [
+    "South Korea",
+    217
+  ],
+  [
+    "Singapore",
+    212
+  ],
+  [
+    "Netherlands",
+    188
+  ],
+  [
+    "Denmark",
+    175
+  ],
+  [
+    "Spain",
+    160
+  ],
+  [
+    "Italy",
+    154
+  ],
+  [
+    "Sweden",
+    140
+  ],
+  [
+    "Finland",
+    126
+  ],
+  [
+    "Hong Kong",
+    126
+  ],
+  [
+    "Switzerland",
+    123
+  ],
+  [
+    "Estonia",
+    105
+  ],
+  [
+    "Ireland",
+    94
+  ],
+  [
+    "Indonesia",
+    92
+  ],
+  [
+    "Mexico",
+    88
+  ],
+  [
+    "Poland",
+    83
+  ],
+  [
+    "Norway",
+    80
+  ],
+  [
+    "Kenya",
+    79
+  ],
+  [
+    "Colombia",
+    72
+  ],
+  [
+    "Czech Republic",
+    71
+  ],
+  [
+    "Egypt",
+    70
+  ],
+  [
+    "Nigeria",
+    65
+  ],
+  [
+    "South Africa",
+    64
+  ],
+  [
+    "UAE",
+    61
+  ],
+  [
+    "Turkey",
+    57
+  ],
+  [
+    "Chile",
+    55
+  ],
+  [
+    "Portugal",
+    46
+  ],
+  [
+    "Malaysia",
+    43
+  ],
+  [
+    "Bangladesh",
+    41
+  ],
+  [
+    "Bulgaria",
+    37
+  ],
+  [
+    "Russia",
+    35
+  ],
+  [
+    "Cyprus",
+    33
+  ],
+  [
+    "New Zealand",
+    32
+  ],
+  [
+    "Ghana",
+    31
+  ],
+  [
+    "Albania",
+    31
+  ],
+  [
+    "Cayman Islands",
+    28
+  ],
+  [
+    "Philippines",
+    28
+  ],
+  [
+    "Lithuania",
+    28
+  ],
+  [
+    "Hungary",
+    27
+  ],
+  [
+    "Bahrain",
+    25
+  ],
+  [
+    "Romania",
+    23
+  ],
+  [
+    "Pakistan",
+    22
+  ],
+  [
+    "Algeria",
+    21
+  ],
+  [
+    "Vietnam",
+    21
+  ],
+  [
+    "Saudi Arabia",
+    19
+  ],
+  [
+    "Luxembourg",
+    19
+  ],
+  [
+    "Croatia",
+    17
+  ],
+  [
+    "San Francisco, CA",
+    16
+  ],
+  [
+    "Thailand",
+    15
+  ],
+  [
+    "Afghanistan",
+    14
+  ],
+  [
+    "Ukraine",
+    13
+  ],
+  [
+    "Armenia",
+    13
+  ],
+  [
+    "Slovakia",
+    12
+  ],
+  [
+    "Jordan",
+    12
+  ],
+  [
+    "Iceland",
+    11
+  ],
+  [
+    "Côte d'Ivoire",
+    11
+  ],
+  [
+    "Ecuador",
+    11
+  ],
+  [
+    "Cameroon",
+    11
+  ],
+  [
+    "Greece",
+    11
+  ],
+  [
+    "Ethiopia",
+    10
+  ],
+  [
+    "Angola",
+    10
+  ],
+  [
+    "New York, NY",
+    9
+  ],
+  [
+    "Panama",
+    8
+  ],
+  [
+    "Azerbaijan",
+    8
+  ],
+  [
+    "Taiwan",
+    8
+  ],
+  [
+    "Belarus",
+    8
+  ],
+  [
+    "Morocco",
+    7
+  ],
+  [
+    "Tunisia",
+    7
+  ],
+  [
+    "Kuwait",
+    7
+  ],
+  [
+    "Sri Lanka",
+    7
+  ],
+  [
+    "Cambodia",
+    7
+  ],
+  [
+    "Senegal",
+    7
+  ],
+  [
+    "New York, NY, United States",
+    6
+  ],
+  [
+    "San Francisco, CA, United States",
+    6
+  ],
+  [
+    "Latvia",
+    6
+  ],
+  [
+    "Peru",
+    6
+  ],
+  [
+    "Costa Rica",
+    6
+  ],
+  [
+    "London, UK",
+    5
+  ],
+  [
+    "Kazakhstan",
+    5
+  ],
+  [
+    "Uganda",
+    5
+  ],
+  [
+    "Mauritius",
+    5
+  ],
+  [
+    "Belize",
+    5
+  ],
+  [
+    "Gibraltar",
+    5
+  ],
+  [
+    "Slovenia",
+    5
+  ],
+  [
+    "Botswana",
+    5
+  ],
+  [
+    "Iran",
+    5
+  ],
+  [
+    "Andorra",
+    5
+  ],
+  [
+    "Mumbai, India",
+    4
+  ],
+  [
+    "Paris, France",
+    4
+  ],
+  [
+    "Menlo Park, CA",
+    4
+  ],
+  [
+    "Antigua and Barbuda",
+    4
+  ],
+  [
+    "Bahamas",
+    4
+  ],
+  [
+    "Oman",
+    4
+  ],
+  [
+    "Malta",
+    4
+  ],
+  [
+    "United States",
+    3
+  ],
+  [
+    "Palo Alto, CA",
+    3
+  ],
+  [
+    "San Francisco, California, United States",
+    3
+  ],
+  [
+    "Boston, MA",
+    3
+  ],
+  [
+    "Sydney, Australia",
+    3
+  ],
+  [
+    "Menlo Park, California, United States",
+    3
+  ],
+  [
+    "Burkina Faso",
+    3
+  ],
+  [
+    "Myanmar",
+    3
+  ],
+  [
+    "Serbia",
+    3
+  ],
+  [
+    "Jamaica",
+    3
+  ],
+  [
+    "Lebanon",
+    3
+  ],
+  [
+    "Bolivia",
+    3
+  ],
+  [
+    "Guatemala",
+    3
+  ],
+  [
+    "Iraq",
+    3
+  ],
+  [
+    "Redwood City, CA",
+    2
+  ],
+  [
+    "Munich, Germany",
+    2
+  ],
+  [
+    "Chicago, IL",
+    2
+  ],
+  [
+    "Liechtenstein",
+    2
+  ],
+  [
+    "Oakland, CA",
+    2
+  ],
+  [
+    "Qatar",
+    2
+  ],
+  [
+    "Vienna, Austria",
+    2
+  ],
+  [
+    "Manhattan Beach, CA",
+    2
+  ],
+  [
+    "Nepal",
+    2
+  ],
+  [
+    "Central African Republic",
+    2
+  ],
+  [
+    "Georgia",
+    2
+  ],
+  [
+    "Namibia",
+    2
+  ],
+  [
+    "Boulder, Colorado, United States",
+    2
+  ],
+  [
+    "El Salvador",
+    2
+  ],
+  [
+    "Bosnia-H",
+    2
+  ],
+  [
+    "Barbados",
+    2
+  ],
+  [
+    "Burundi",
+    2
+  ],
+  [
+    "Benin",
+    2
+  ],
+  [
+    "Nicaragua",
+    2
+  ],
+  [
+    "Venezuela",
+    2
+  ],
+  [
+    "Zimbabwe",
+    2
+  ],
+  [
+    "Tanzania",
+    2
+  ],
+  [
+    "Amsterdam, NL",
+    1
+  ],
+  [
+    "Raleigh, North Carolina, United States",
+    1
+  ],
+  [
+    "Dubai, UAE",
+    1
+  ],
+  [
+    "Tel Aviv, Israel",
+    1
+  ],
+  [
+    "Berlin, Germany",
+    1
+  ],
+  [
+    "Lexington, MA",
+    1
+  ],
+  [
+    "Cham, Switzerland",
+    1
+  ],
+  [
+    "Salt Lake City, UT, United States",
+    1
+  ],
+  [
+    "Imaginary City, CA, United States",
+    1
+  ],
+  [
+    "Tiburon, CA",
+    1
+  ],
+  [
+    "Rome, Italy",
+    1
+  ],
+  [
+    "Istanbul, Turkey",
+    1
+  ],
+  [
+    "Santiago, Chile",
+    1
+  ],
+  [
+    "Bengaluru, India",
+    1
+  ],
+  [
+    "Buffalo, NY",
+    1
+  ],
+  [
+    "Manchester, NH",
+    1
+  ],
+  [
+    "Remote, CA",
+    1
+  ],
+  [
+    "The Hague, Netherlands",
+    1
+  ],
+  [
+    "New York City, USA",
+    1
+  ],
+  [
+    "Vilnius, Lithuania",
+    1
+  ],
+  [
+    "Brisbane, Australia",
+    1
+  ],
+  [
+    "Framingham, MA",
+    1
+  ],
+  [
+    "Sao Paulo, Brazil",
+    1
+  ],
+  [
+    "Salt Lake City, UT",
+    1
+  ],
+  [
+    "Sunnyvale, California, United States",
+    1
+  ],
+  [
+    "Portola Valley, California, United States",
+    1
+  ],
+  [
+    "Louisville, KY",
+    1
+  ],
+  [
+    "Greenwich, CT",
+    1
+  ],
+  [
+    "Norwood, MA",
+    1
+  ],
+  [
+    "Los Angeles, California, United States",
+    1
+  ],
+  [
+    "Venice, CA",
+    1
+  ],
+  [
+    "Austin, TX",
+    1
+  ],
+  [
+    "La Jolla, CA",
+    1
+  ],
+  [
+    "p2p lending",
+    1
+  ],
+  [
+    "Trinidad and Tobago",
+    1
+  ],
+  [
+    "San Francisco, NY, London",
+    1
+  ],
+  [
+    "Pittsburgh, PA",
+    1
+  ],
+  [
+    "Gabon",
+    1
+  ],
+  [
+    "Mountain View, CA",
+    1
+  ],
+  [
+    "Palo Alto, California, United States",
+    1
+  ],
+  [
+    "Dominican Republic",
+    1
+  ],
+  [
+    "Haiti",
+    1
+  ],
+  [
+    "Paraguay",
+    1
+  ],
+  [
+    "Washington, DC",
+    1
+  ],
+  [
+    "Quantum Tech",
+    1
+  ],
+  [
+    "agritech",
+    1
+  ],
+  [
+    "Honduras",
+    1
+  ],
+  [
+    "Rwanda",
+    1
+  ],
+  [
+    "Marshall Islands",
+    1
+  ],
+  [
+    "New York, New York, United States",
+    1
+  ],
+  [
+    "Future of Food Chain",
+    1
+  ],
+  [
+    "Silicon Valley, California, United States",
+    1
+  ],
+  [
+    "Gambia",
+    1
+  ],
+  [
+    "Mongolia",
+    1
+  ],
+  [
+    "Newport Beach, California, United States",
+    1
+  ],
+  [
+    "Uruguay",
+    1
+  ],
+  [
+    "Austin, Texas, United States",
+    1
+  ],
+  [
+    "Ann Arbor, Michigan, United States",
+    1
+  ],
+  [
+    "networking",
+    1
+  ],
+  [
+    "Seychelles",
+    1
+  ],
+  [
+    "Saas,Find intros,,Skip,3. Early Revenue,+1,https://www.openvc.app/fund/Stefano%20Gonelle%20Ribas,Add to CRM,,,https://www.openvc.app/images/funds/recpZCveCWkl3SYT1.jpg,",
+    1
+  ],
+  [
+    "Bhutan",
+    1
+  ],
+  [
+    "Lesotho",
+    1
+  ],
+  [
+    "FPGA",
+    1
+  ],
+  [
+    "Uzbekistan",
+    1
+  ],
+  [
+    "platforms",
+    1
+  ],
+  [
+    "Mali",
+    1
+  ],
+  [
+    "Zambia",
+    1
+  ],
+  [
+    "Tajikistan",
+    1
+  ],
+  [
+    "Menlo Park, CA, United States",
+    1
+  ],
+  [
+    "Boston, Massachusetts, United States",
+    1
+  ],
+  [
+    "North Macedonia",
+    1
+  ]
+]

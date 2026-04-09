@@ -1,0 +1,68 @@
+Extracting unique values from first 500 records...
+
+--- Unique Locations (Top) ---
+[
+  'Algeria',        'Argentina',     'Armenia',
+  'Australia',      'Austria',       'Bahrain',
+  'Bangladesh',     'Belgium',       'Botswana',
+  'Brazil',         'Bulgaria',      'Canada',
+  'Chile',          'China',         'Cyprus',
+  'Czech Republic', "Côte d'Ivoire", 'Denmark',
+  'Ecuador',        'Egypt',         'Estonia',
+  'Finland',        'France',        'Germany',
+  'Ghana',          'Global',        'Hong Kong',
+  'Iceland',        'India',         'Indonesia',
+  'Ireland',        'Israel',        'Italy',
+  'Japan',          'Kazakhstan',    'Kenya',
+  'Kuwait',         'Liechtenstein', 'Lithuania',
+  'Luxembourg',     'Malaysia',      'Mexico',
+  'Morocco',        'Nepal',         'Netherlands',
+  'Nigeria',        'Norway',        'Pakistan',
+  'Poland',         'Qatar'
+]
+
+--- Unique Stages ---
+[
+  '1. Idea or Patent',
+  '2. Prototype',
+  '3. Early Revenue',
+  '4. Scaling',
+  '5. Growth',
+  '6. Pre-IPO'
+]
+
+--- Unique Checks ---
+[
+  '$100k to $100M', '$100k to $10M',  '$100k to $1M',
+  '$100k to $200k', '$100k to $20M',  '$100k to $25M',
+  '$100k to $2M',   '$100k to $300k', '$100k to $3M',
+  '$100k to $400k', '$100k to $500k', '$100k to $50M',
+  '$100k to $5M',   '$10M to $25M',   '$10k to $1.5M',
+  '$10k to $100M',  '$10k to $200k',  '$150k to $1M',
+  '$150k to $2.5M', '$150k to $2M',   '$150k to $500k',
+  '$150k to $8M',   '$15M to $30M',   '$15k to $250k',
+  '$15k to $30k',   '$1M to $10M',    '$1M to $1M',
+  '$1M to $20M',    '$1M to $5M',     '$1M to $7M',
+  '$1k to $25k',    '$1k to $5k',     '$2.5k to $50k',
+  '$200k to $1M',   '$200k to $3M',   '$200k to $500k',
+  '$200k to $700k', '$20k to $500k',  '$250k to $12M',
+  '$250k to $1M',   '$250k to $2M',   '$250k to $500k',
+  '$250k to $750k', '$25k to $100k',  '$25k to $1M',
+  '$25k to $200k',  '$25k to $250k',  '$25k to $25k',
+  '$25k to $300k',  '$25k to $5M',    '$25k to $750k',
+  '$2M to $10M',    '$2k to $600k',   '$300k to $1M',
+  '$300k to $2M',   '$300k to $5M',   '$30k to $1M',
+  '$350k to $3M',   '$35k to $35k',   '$3M to $12M',
+  '$3M to $5M',     '$500k to $1.5M', '$500k to $15M',
+  '$500k to $1M',   '$500k to $2M',   '$500k to $3M',
+  '$500k to $5M',   '$50k to $100k',  '$50k to $14M',
+  '$50k to $1M',    '$50k to $250k',  '$50k to $300k',
+  '$50k to $400k',  '$50k to $500k',  '$50k to $5M',
+  '$5M to $10M',    '$5k to $100k',   '$5k to $25k',
+  '$5 to $400k',    '$60k to $1.2M',  '$60k to $120k',
+  '$700k to $15M',  '$750k to $6M',   'Contact for details',
+  'N/A',            'max. $100',      'max. $1M',
+  'max. $20M',      'max. $2M',       'max. $4M',
+  'max. $500k',     'max. $5M',       'min. $100k',
+  'min. $300k',     'min. $500k'
+]

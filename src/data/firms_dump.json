@@ -1,0 +1,1928 @@
+[
+  {
+    "firm_id": 11261,
+    "firm_type_id": "VC",
+    "firm_name": "Acme Investments",
+    "firm_address_1": "123 Investment St",
+    "firm_address_2": "Suite 456",
+    "firm_city": "New York",
+    "firm_state": "NY",
+    "firm_country": "United States",
+    "firm_zip": "10001",
+    "firm_phone": "+1-234-567-8901",
+    "firm_website": "https://www.acmeinvestments.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/acme-investments",
+    "firm_description": "Acme Investments is a leading venture capital firm based in New York, specializing in early-stage technology startups. With a team of seasoned investors, we focus on companies that are leveraging innovative technologies to disrupt traditional industries. Our mission is to support visionary entrepreneurs in their quest to build the next generation of transformative businesses. We believe in building long-term partnerships with our portfolio companies, providing not just financial backing but also strategic guidance to help them scale and succeed in a competitive marketplace. Our investment strategy is centered around identifying high-potential startups in sectors such as fintech, healthtech, and artificial intelligence.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 500,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare",
+      "Financial Services"
+    ],
+    "last_checked": "2025-05-28T11:46:37.800141+00:00",
+    "created_at": "2025-06-12T07:51:07.404963+00:00",
+    "updated_at": "2025-06-12T07:51:07.404963+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 11247,
+    "firm_type_id": "VC",
+    "firm_name": "Infinite Loop Ventures",
+    "firm_address_1": "123 Startup Lane",
+    "firm_address_2": "Suite 100",
+    "firm_city": "San Francisco",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "94105",
+    "firm_phone": "",
+    "firm_website": "https://www.infiniterloopventures.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/infinite-loop-ventures",
+    "crunchbase_uuid": "d2c5b5a1-a12b-4f69-9478-8072b13a0456",
+    "crunchbase_url": "https://www.crunchbase.com/organization/infinite-loop-ventures",
+    "twitter_url": "https://twitter.com/infinite_loop_ven",
+    "firm_description": "Infinite Loop Ventures is a leading venture capital firm focused on supporting early-stage technology startups. Our mission is to partner with visionary entrepreneurs who are looking to push the boundaries of innovation. With a team of experienced investment professionals, we leverage our extensive network and resources to help companies navigate the complex startup landscape. Our portfolio spans various sectors including artificial intelligence, fintech, health tech, and more. We seek to invest in transformative ideas that have the potential to disrupt traditional industries and create significant value for stakeholders. We believe in building long-term relationships with our portfolio companies, providing them with not just capital but also strategic guidance and mentorship. Our commitment to fostering innovation drives us to continually seek out the next generation of game-changing startups.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 200,
+    "firm_focus": [
+      "Software & Internet",
+      "Life Sciences & Healthcare",
+      "Financial Services",
+      "Information Technology"
+    ],
+    "last_checked": "2025-05-28T11:26:48.971693+00:00",
+    "created_at": "2025-06-12T07:51:04.989082+00:00",
+    "updated_at": "2025-06-12T07:51:04.989082+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 10378,
+    "firm_type_id": "VC",
+    "firm_name": "PreAngel Fund",
+    "firm_address_1": "440 N Wolfe Rd",
+    "firm_city": "Sunnyvale",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "94085",
+    "firm_website": "https://www.preangelfund.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/preangel",
+    "crunchbase_uuid": "bd268c33-8b25-2e9c-c326-8d9a7a565ab1",
+    "crunchbase_url": "https://www.crunchbase.com/organization/preangel",
+    "twitter_url": "https://twitter.com/preangelfund",
+    "facebook_url": "https://www.facebook.com/preangelleo",
+    "firm_description": "PreAngel Fund is among the first institutional angel funds in China, focusing on early-stage investments ranging from $20,000 to $1 million. The firm has backed notable companies like Hesai and Ehang, both of which are now publicly traded. PreAngel also has a strong portfolio featuring multiple unicorns, which include names such as Medlinker and Shouqianba. With a specialization in investment across sectors such as aviation, autonomous driving, and healthcare, PreAngel aims to catalyze innovation in these areas.",
+    "firm_stages": [
+      "Seed"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Life Sciences & Healthcare",
+      "Information Technology"
+    ],
+    "last_checked": "2025-05-11T12:30:36.026858+00:00",
+    "created_at": "2025-06-12T07:47:27.598443+00:00",
+    "updated_at": "2025-06-12T07:47:27.598443+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 10216,
+    "firm_type_id": "VC",
+    "firm_name": "The CXO Fund",
+    "firm_address_1": "3031 Tisch Way",
+    "firm_city": "Silicon Valley",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "95128",
+    "firm_website": "http://www.thefundcxo.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/the-cxo-fund",
+    "firm_description": "The CXO Fund supports entrepreneurs who are building disruptive solutions to address problems in large markets. Our investments go beyond providing capital; we mentor our portfolio company's CEO and leadership, help them solve complex technology challenges, and make connections to individuals and companies across our network.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Financial Services",
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-11T11:20:30.348814+00:00",
+    "created_at": "2025-06-12T07:45:45.262196+00:00",
+    "updated_at": "2025-06-12T07:45:45.262196+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9525,
+    "firm_type_id": "VC",
+    "firm_name": "Pioneers",
+    "firm_address_1": "123 Investment St",
+    "firm_address_2": "Suite 100",
+    "firm_city": "New York",
+    "firm_state": "NY",
+    "firm_country": "United States",
+    "firm_zip": "10001",
+    "firm_phone": "",
+    "firm_website": "https://www.pioneersvc.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/pioneersvc",
+    "firm_description": "Pioneers is a venture capital firm focused on early-stage investments in technology startups. We leverage our extensive network and industry knowledge to support innovative entrepreneurs in scaling their businesses. Our team has a proven track record of identifying disruptive technologies and nurturing them to achieve their full potential. We are particularly interested in sectors such as artificial intelligence, fintech, and healthtech. Our mission is to empower visionary founders and help shape the future of technology. With over $500 million in assets under management, we are committed to driving growth and delivering outstanding returns for our investors.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 500,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare",
+      "Education & Training"
+    ],
+    "last_checked": "2025-05-11T07:44:43.710654+00:00",
+    "created_at": "2025-06-12T07:42:26.964015+00:00",
+    "updated_at": "2025-06-12T07:42:26.964015+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9516,
+    "firm_type_id": "VC",
+    "firm_name": "Philipp Belter",
+    "firm_address_1": "",
+    "firm_address_2": "",
+    "firm_city": "New York",
+    "firm_state": "NY",
+    "firm_country": "United States",
+    "firm_zip": "10001",
+    "firm_phone": "123-456-7890",
+    "firm_website": "https://www.philippbelter.com",
+    "firm_description": "Philipp Belter is a firm specializing in venture capital investments. With a focus on innovative technology startups, we aim to support entrepreneurs in scaling their businesses and achieving sustainable growth. Our team brings together extensive industry experience and a passion for fostering innovation.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 10,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-11T07:33:35.422165+00:00",
+    "created_at": "2025-06-12T07:42:24.879787+00:00",
+    "updated_at": "2025-06-12T07:42:24.879787+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9501,
+    "firm_type_id": "VC",
+    "firm_name": "Julien Andr\u00e9",
+    "firm_address_1": "",
+    "firm_address_2": "",
+    "firm_city": "San Francisco",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "94105",
+    "firm_phone": "123-456-7890",
+    "firm_website": "https://www.julienandre.com",
+    "firm_description": "Julien Andr\u00e9 is a prominent firm specializing in venture capital. With a focus on innovative startups and emerging technologies, we aim to identify and support the next generation of industry leaders. Our team is committed to providing not only financial resources but also strategic guidance to our portfolio companies, helping them navigate the challenging landscape of growth and development. Our investment philosophy centers around long-term value creation and sustainable business practices, ensuring that our partners are well-positioned for the future.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 100,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-11T07:28:00.357702+00:00",
+    "created_at": "2025-06-12T07:42:20.198562+00:00",
+    "updated_at": "2025-06-12T07:42:20.198562+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9480,
+    "firm_type_id": "VC",
+    "firm_name": "Sherpa Ventures",
+    "firm_address_1": "123 Venture Lane",
+    "firm_address_2": "Suite 100",
+    "firm_city": "San Francisco",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "94105",
+    "firm_phone": "",
+    "firm_website": "http://www.sherpavc.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/sherpa-ventures",
+    "crunchbase_uuid": "3b2c6043-142e-453c-8087-cb94ae0ddd53",
+    "crunchbase_url": "https://www.crunchbase.com/organization/acme-capital",
+    "firm_description": "Sherpa Ventures is a leading venture capital firm that specializes in investing in early-stage technology companies. With a focus on innovation and disruptive technologies, we partner with entrepreneurs to help them build sustainable businesses in the digital age. Our team has extensive experience in scaling startups and offers strategic guidance throughout the investment process.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 100,
+    "firm_focus": [
+      "Software & Internet",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-11T07:18:35.163113+00:00",
+    "created_at": "2025-06-12T07:42:14.214919+00:00",
+    "updated_at": "2025-06-12T07:42:14.214919+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9475,
+    "firm_type_id": "VC",
+    "firm_name": "Polaris Venture Partners",
+    "firm_city": "Boston",
+    "firm_state": "Massachusetts",
+    "firm_country": "United States",
+    "firm_website": "http://www.polarisventures.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/polaris-venture-partners",
+    "firm_description": "Polaris Venture Partners is a venture capital firm that invests across all company lifecycle stages, aiming to be the lead or co-lead investor in virtually all of its portfolio companies.",
+    "firm_stages": [
+      "Pre-Seed",
+      "Seed",
+      "Series A",
+      "Series B",
+      "Late Stage"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare",
+      "Media & Digital Media",
+      "Business Services"
+    ],
+    "last_checked": "2025-05-11T07:16:53.067726+00:00",
+    "created_at": "2025-06-12T07:42:12.704495+00:00",
+    "updated_at": "2025-06-12T07:42:12.704495+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9464,
+    "firm_type_id": "VC",
+    "firm_name": "Interplay",
+    "firm_address_1": "",
+    "firm_address_2": "",
+    "firm_city": "San Francisco",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "94105",
+    "firm_phone": "123-456-7890",
+    "firm_website": "http://www.interplay.vc/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/interplay",
+    "crunchbase_uuid": "77897c05-076f-be47-3551-131117950f1c",
+    "crunchbase_url": "https://www.crunchbase.com/organization/interplay-ventures",
+    "twitter_url": "http://twitter.com/Interplay",
+    "firm_description": "Interplay is a venture capital firm that specializes in co-founding, incubating, and investing in innovative companies across various sectors. The firm emphasizes strategic partnerships, leveraging its extensive network to provide portfolio companies with the resources and expertise necessary for growth. Interplay aims to identify and support visionary entrepreneurs who are working to transform industries and create impactful solutions. With a commitment to nurturing talent and fostering innovation, Interplay plays a crucial role in the entrepreneurial ecosystem.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 100,
+    "firm_focus": [
+      "Software & Internet",
+      "Consumer Products & Services"
+    ],
+    "last_checked": "2025-05-11T07:13:07.946380+00:00",
+    "created_at": "2025-06-12T07:42:09.412060+00:00",
+    "updated_at": "2025-06-12T07:42:09.412060+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9457,
+    "firm_type_id": "VC",
+    "firm_name": "Betaworks",
+    "firm_city": "New York",
+    "firm_state": "NY",
+    "firm_country": "United States",
+    "firm_website": "http://www.betaworks.com/",
+    "firm_linkedin_url": "http://www.linkedin.com/company/betaworks",
+    "crunchbase_uuid": "b6e5fec6-35f4-df51-ffdc-9923c850572b",
+    "crunchbase_url": "https://www.crunchbase.com/organization/betaworks",
+    "twitter_url": "https://x.com/betaworks",
+    "firm_description": "Betaworks is a startup studio and seed stage venture capital firm that builds and invests in the next generations of industry-changing companies. They are known for creating and investing in digital products, some of which are popular platforms in media, social, and technology restructuring fields.",
+    "firm_stages": [
+      "Seed"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Media & Digital Media",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-11T07:09:03.338857+00:00",
+    "created_at": "2025-06-12T07:42:07.315542+00:00",
+    "updated_at": "2025-06-12T07:42:07.315542+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9451,
+    "firm_type_id": "VC",
+    "firm_name": "Andreesen Horowitz",
+    "firm_city": "Menlo Park",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "94025",
+    "firm_website": "http://a16z.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/a16z",
+    "firm_description": "Andreessen Horowitz is a private venture capital firm that invests in technology companies at various stages of development, from seed-stage through growth-stage. The firm is based in Silicon Valley and provides support to their portfolio companies in areas such as recruiting, marketing, and organizational development.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B",
+      "Late Stage"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet",
+      "Consumer Products & Services"
+    ],
+    "last_checked": "2025-05-11T07:07:10.317141+00:00",
+    "created_at": "2025-06-12T07:42:05.836479+00:00",
+    "updated_at": "2025-06-12T07:42:05.836479+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9445,
+    "firm_type_id": "VC",
+    "firm_name": "TA Venture",
+    "firm_country": "United States",
+    "firm_zip": "00000",
+    "firm_phone": "+1234567890",
+    "firm_website": "http://www.taventure.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/taventure",
+    "firm_description": "TA Venture is a venture capital firm focused on investing in innovative seed-stage and early-stage Web companies in the USA, Europe and more particularly in Ukraine, Russia and other CIS countries. They also invest in growth-stage companies with proven business models that have been successfully implemented in Western markets and which seek to expand their business into Ukraine, Russia and other CIS countries.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology"
+    ],
+    "last_checked": "2025-05-11T07:03:38.350587+00:00",
+    "created_at": "2025-06-12T07:42:04.051924+00:00",
+    "updated_at": "2025-06-12T07:42:04.051924+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9438,
+    "firm_type_id": "VC",
+    "firm_name": "naiss.io",
+    "firm_city": "Palo Alto",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_website": "http://www.naiss.io",
+    "firm_linkedin_url": "https://www.linkedin.com/company/naiss",
+    "crunchbase_uuid": "7029cbf1-b042-ea33-83a3-e70ecb802275",
+    "crunchbase_url": "https://www.crunchbase.com/organization/naiss",
+    "twitter_url": "https://www.twitter.com/naiss_io",
+    "firm_description": "naiss.io is a VC boutique with a scaling methodology preparing companies for IPO in secondary markets (focus on TSX-V), as well as startup/new ventures strategic planning. The firm has executives with affiliations to Singularity and Berkeley.",
+    "firm_stages": [
+      "Pre-Seed",
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Financial Services",
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-11T06:59:07.354074+00:00",
+    "created_at": "2025-06-12T07:42:01.952363+00:00",
+    "updated_at": "2025-06-12T07:42:01.952363+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9417,
+    "firm_type_id": "VC",
+    "firm_name": "Kleiner Perkins Caufield & Buyers",
+    "firm_address_1": "2750 Sand Hill Road, Suite 100",
+    "firm_city": "Menlo Park",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "94025",
+    "firm_website": "https://www.kleinerperkins.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/kleiner-perkins",
+    "crunchbase_uuid": "2d0a5bf0-e53e-9a07-2243-9bcd561421ec",
+    "crunchbase_url": "https://www.crunchbase.com/organization/kleiner-perkins-caufield-byers",
+    "twitter_url": "https://www.twitter.com/kleinerperkins",
+    "facebook_url": "https://www.facebook.com/kleinerperkinsprofile",
+    "firm_description": "Kleiner Perkins is a venture capital firm that specializes in early-stage investment in technology, healthcare, and other innovative sectors. The firm has a strong focus on supporting companies that are poised for significant growth and have the potential to transform industries. With a rich history of successful investments, Kleiner Perkins remains a prominent player in the venture capital landscape, known for backing innovative startups and visionary entrepreneurs.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare",
+      "Consumer Products & Services"
+    ],
+    "last_checked": "2025-05-11T06:47:43.543379+00:00",
+    "created_at": "2025-06-12T07:41:55.597675+00:00",
+    "updated_at": "2025-06-12T07:41:55.597675+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9415,
+    "firm_type_id": "VC",
+    "firm_name": "Seed Equity Ventures",
+    "firm_city": "Salt Lake City",
+    "firm_state": "UT",
+    "firm_country": "United States",
+    "firm_website": "http://seedequity.com",
+    "firm_linkedin_url": "http://www.linkedin.com/company/seedequityventures",
+    "crunchbase_uuid": "f0fed694-2d4f-79d4-08b9-8872c9dcbc8b",
+    "crunchbase_url": "https://www.crunchbase.com/organization/seed-equity-ventures",
+    "twitter_url": "http://twitter.com/getseedequity",
+    "facebook_url": "http://www.facebook.com/pages/Seed-Equity/439888739445195",
+    "firm_description": "Seed Equity Ventures is a registered broker dealer with the U.S. Securities and Exchange Commission and is a member of both FINRA and SIPC. Seed Equity Ventures provides investment banking services to startups and growth companies from around the world.",
+    "firm_stages": [
+      "Seed"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Financial Services",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-11T06:47:10.437357+00:00",
+    "created_at": "2025-06-12T07:41:55.001487+00:00",
+    "updated_at": "2025-06-12T07:41:55.001487+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9242,
+    "firm_type_id": "VC",
+    "firm_name": "Concentric Partners",
+    "firm_address_1": "900 Ridgefield Dr, Suite 270",
+    "firm_city": "Raleigh",
+    "firm_state": "North Carolina",
+    "firm_country": "United States",
+    "firm_zip": "27609",
+    "firm_website": "https://concentricteam.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/concentric-partners-llc",
+    "firm_description": "Concentric Partners is a venture capital firm focused on partnering with sector-defining founders across Europe to create new technologies that disrupt the status quo and solve pressing problems. They operate with a long-term perspective aimed at achieving superior financial returns and creating lasting value for their stakeholders.",
+    "firm_stages": [
+      "Seed"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-11T02:38:12.605425+00:00",
+    "created_at": "2025-06-12T07:41:05.346092+00:00",
+    "updated_at": "2025-06-12T07:41:05.346092+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 9054,
+    "firm_type_id": "VC",
+    "firm_name": "Unicorn Ventures",
+    "firm_address_1": "123 Unicorn St",
+    "firm_address_2": "Suite 456",
+    "firm_city": "Imaginary City",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "90210",
+    "firm_phone": "+1-555-0123",
+    "firm_website": "https://www.unicornventures.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/unicornventures",
+    "firm_description": "Unicorn Ventures is a leading venture capital firm focused on investing in innovative technology startups. Our mission is to empower entrepreneurs by providing not just capital, but also strategic guidance and support to help transform their ideas into successful businesses. We specialize in early-stage investments, targeting companies that are developing groundbreaking technologies in sectors such as artificial intelligence, biotechnology, and sustainable energy.  At Unicorn Ventures, we believe in fostering a collaborative approach between our portfolio companies, our investors, and our team. We take pride in our extensive network of industry experts and advisors who are ready to assist our founders in overcoming challenges and achieving growth. Our commitment to excellence and innovation drives us to continuously seek out the most promising opportunities in the tech landscape.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 150,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare",
+      "Energy & Clean Tech"
+    ],
+    "last_checked": "2025-05-10T22:49:27.367549+00:00",
+    "created_at": "2025-06-12T07:40:55.404537+00:00",
+    "updated_at": "2025-06-12T07:40:55.404537+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8926,
+    "firm_type_id": "VC",
+    "firm_name": "Renaissance Venture Capital Fund",
+    "firm_address_1": "Ann Arbor, MI 48104, US",
+    "firm_city": "Ann Arbor",
+    "firm_state": "Michigan",
+    "firm_country": "United States",
+    "firm_zip": "48104",
+    "firm_website": "http://www.renvcf.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/renaissance-venture-capital-fund",
+    "crunchbase_uuid": "19cb876a-3aaf-5649-3fde-2a8bc082d058",
+    "crunchbase_url": "https://www.crunchbase.com/organization/renaissance-venture-capital-fund",
+    "twitter_url": "http://twitter.com/renvcf",
+    "firm_description": "The Renaissance Venture Capital Fund was formed with the philosophy that venture capital is important for economic growth and that many major industrial and business regions such as the State of Michigan are underserved in the amount of venture capital available to fund exciting new ideas and technologies. Success is often built by a combination of innovation, capital and strong working relationships. Our belief is that by providing much needed capital to top tier venture capital firms that are active in Michigan and by building bridges between young innovation companies and Michigan's established business community, we can achieve regional success in the form of strong investment returns and economic growth.",
+    "firm_stages": [
+      "Seed"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-10T14:25:09.520386+00:00",
+    "created_at": "2025-06-12T07:40:50.295981+00:00",
+    "updated_at": "2025-06-12T07:40:50.295981+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8920,
+    "firm_type_id": "VC",
+    "firm_name": "Harrison Metal",
+    "firm_address_1": "2430 3rd Street",
+    "firm_city": "San Francisco",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "94107",
+    "firm_website": "https://www.harrisonmetal.com/",
+    "crunchbase_uuid": "f25b185e-9c1a-8180-3a56-660dae71d4c2",
+    "crunchbase_url": "https://www.crunchbase.com/organization/harrison-metal-capital",
+    "twitter_url": "http://twitter.com/mcgd",
+    "firm_description": "Harrison Metal is an investment firm founded by Michael Dearing that invests in early-stage technology companies. It manages a portfolio with a focus on startups within the technology sector and has been operational since 2008. The firm partners with a limited number of investors and provides investment classes for aspiring capitalists. Dearing's experience includes a notable tenure at eBay, reflecting the firm's strong management ethos and commitment to nurturing innovation in the tech space.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-10T13:30:26.247811+00:00",
+    "created_at": "2025-06-12T07:40:48.799722+00:00",
+    "updated_at": "2025-06-12T07:40:48.799722+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8913,
+    "firm_type_id": "VC",
+    "firm_name": "FirstMark Capital",
+    "firm_address_1": "100 Fifth Avenue, 3rd Floor",
+    "firm_city": "New York",
+    "firm_state": "New York",
+    "firm_country": "United States",
+    "firm_zip": "10011",
+    "firm_website": "https://www.firstmarkcap.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/firstmark-capital",
+    "crunchbase_uuid": "86742bac-1934-8ad1-2190-3a1cca668505",
+    "crunchbase_url": "https://www.crunchbase.com/organization/firstmark-capital",
+    "twitter_url": "http://www.twitter.com/firstmarkcap",
+    "facebook_url": "https://www.facebook.com/firstmarkcap",
+    "firm_description": "FirstMark is an early-stage venture capital firm that partners with exceptional founders across various sectors, focusing on community building among its founders and promoting a culture of curiosity and excellence. We are privileged to work alongside the founders of businesses like Pinterest, Shopify, Airbnb, and more. Our mission is to provide founders with unprecedented support as they build technology companies that change the world.",
+    "firm_stages": [
+      "Pre-Seed",
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Financial Services"
+    ],
+    "last_checked": "2025-05-09T23:17:48.691130+00:00",
+    "created_at": "2025-06-12T07:40:46.696693+00:00",
+    "updated_at": "2025-06-12T07:40:46.696693+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8909,
+    "firm_type_id": "VC",
+    "firm_name": "Foundry Group",
+    "firm_city": "Boulder",
+    "firm_state": "Colorado",
+    "firm_country": "United States",
+    "firm_website": "https://www.foundrygroup.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/foundry-group",
+    "crunchbase_uuid": "84827476-e5bf-7d58-dff3-7ad92171360d",
+    "crunchbase_url": "https://www.crunchbase.com/organization/fg-angels",
+    "twitter_url": "https://twitter.com/foundrygroup",
+    "firm_description": "Foundry Group is a venture capital firm based in Boulder, Colorado, focusing on early-stage investments in technology companies. The firm manages over $3.0 billion for their limited partners and has facilitated more than 320 investments and over 70 exits, supporting a community of founders, CEOs, and partners. They emphasize a 'give first' philosophy that fosters collaboration and innovation among their ecosystem.",
+    "firm_stages": [
+      "Pre-Seed",
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 3000,
+    "firm_focus": [
+      "Software & Internet",
+      "Information Technology"
+    ],
+    "last_checked": "2025-05-09T23:08:18.543374+00:00",
+    "created_at": "2025-06-12T07:40:45.746686+00:00",
+    "updated_at": "2025-06-12T07:40:45.746686+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8901,
+    "firm_type_id": "VC",
+    "firm_name": "Alpha Edison",
+    "firm_address_1": "1025 Westwood Blvd, Floor 2",
+    "firm_city": "Los Angeles",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "90024",
+    "firm_phone": "(323) 579 2050",
+    "firm_website": "https://www.alphaedison.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/17926982",
+    "crunchbase_uuid": "d3281687-f4d2-be3c-0bd2-21921603b0bd",
+    "crunchbase_url": "https://www.crunchbase.com/organization/alpha-edison",
+    "twitter_url": "https://twitter.com/AlphaEdisonLA",
+    "firm_description": "Alpha Edison is an investment firm that partners with entrepreneurs to build companies that unlock new markets. They focus on early-stage ventures that leverage technology to access new demands and address shifts in consumer behaviors through innovation.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-09T22:53:13.922253+00:00",
+    "created_at": "2025-06-12T07:40:43.803377+00:00",
+    "updated_at": "2025-06-12T07:40:43.803377+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8871,
+    "firm_type_id": "VC",
+    "firm_name": "Mobile Foundation Ventures",
+    "firm_country": "United States",
+    "firm_website": "http://www.mfvpartners.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/mobile-foundation-ventures",
+    "crunchbase_uuid": "51de1795-85ce-4963-8da9-c3aeda69ae09",
+    "crunchbase_url": "https://www.crunchbase.com/organization/mfv-partners",
+    "firm_description": "Mobile Foundation Ventures is a venture capital firm that invests in early-stage deep tech companies across various sectors, including robotics, quantum computing, and AI. Their mission is to back visionary entrepreneurs who are developing groundbreaking solutions to address global challenges in industries such as transportation, manufacturing, health-tech, energy, and climate change.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Energy & Clean Tech",
+      "Life Sciences & Healthcare",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-09T21:59:54.168270+00:00",
+    "created_at": "2025-06-12T07:40:36.385210+00:00",
+    "updated_at": "2025-06-12T07:40:36.385210+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8838,
+    "firm_type_id": "C",
+    "firm_name": "zVentures by Razer",
+    "firm_city": "San Francisco",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_website": "https://www.zvntrs.com",
+    "firm_linkedin_url": "https://www.linkedin.com/company/zventures",
+    "firm_description": "zVentures is the early-stage venture arm of Razer, the world's leading lifestyle brand for gamers. It invests in Seed and Series A start-ups that add strategic value to the Razer ecosystem. zVentures provides not just capital but also access to Razer's extensive global network and expertise in various domains including gaming, consumer technology, deep tech, and sustainability.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Consumer Products & Services",
+      "Sports & Entertainment"
+    ],
+    "last_checked": "2025-05-09T08:28:28.897056+00:00",
+    "created_at": "2025-06-12T07:40:29.228337+00:00",
+    "updated_at": "2025-06-12T07:40:29.228337+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8822,
+    "firm_type_id": "C",
+    "firm_name": "You & Mr Jones Brandtech Ventures (The Brandtech Group)",
+    "firm_address_1": "578 Broadway",
+    "firm_address_2": "FL 7",
+    "firm_city": "New York",
+    "firm_state": "NY",
+    "firm_country": "United States",
+    "firm_zip": "10012",
+    "firm_website": "http://www.youandmrjones.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/the-brandtech-group",
+    "firm_description": "The Brandtech Group is a marketing technology group founded in 2015, assisting brands in enhancing their marketing efficiency through technology. This firm is the world's leading digital-only marketing group, innovating in areas like generative AI and e-commerce. They focus on investing in innovative technology startups to help brands execute their marketing strategies better, faster, and cheaper.",
+    "firm_stages": [
+      "Seed"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Software & Internet",
+      "Media & Digital Media"
+    ],
+    "last_checked": "2025-05-09T08:25:03.067764+00:00",
+    "created_at": "2025-06-12T07:40:25.278807+00:00",
+    "updated_at": "2025-06-12T07:40:25.278807+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8810,
+    "firm_type_id": "VC",
+    "firm_name": "Xplorer Capital",
+    "firm_address_1": "Menlo Park",
+    "firm_city": "Menlo Park",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_website": "https://xplorer.vc/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/xplorer-capital",
+    "crunchbase_uuid": "bd2e0de3-d2a8-de2e-6d28-bc59856514fa",
+    "crunchbase_url": "https://www.crunchbase.com/organization/xplorer-capital",
+    "facebook_url": "https://www.facebook.com/Xplorer-Capital-358574414278383",
+    "firm_description": "Xplorer Capital is a venture capital firm that invests in talented entrepreneurs and disruptive technologies that transform industries on a global scale. The firm supports its portfolio companies by leveraging its experience and connections. It focuses on investments in early-stage B2B technology companies, particularly in the areas of Artificial Intelligence, Automation, and Enterprise SaaS Data Solutions.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-09T08:21:31.640986+00:00",
+    "created_at": "2025-06-12T07:40:22.308155+00:00",
+    "updated_at": "2025-06-12T07:40:22.308155+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8805,
+    "firm_type_id": "VC",
+    "firm_name": "WRVI Capital",
+    "firm_city": "San Francisco",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_website": "https://wrvi.vc/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/wrvi-capital",
+    "firm_description": "WRVI Capital is a global venture capital firm focused on disruptive semiconductor and deep technology investments. It is dedicated to supporting exceptional entrepreneurs creating innovative solutions. The firm invests in early-stage technology companies and aims to catalyze significant advancements in various industries through its investment strategy.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Semiconductor",
+      "Electronics & Advanced Materials"
+    ],
+    "last_checked": "2025-05-09T08:20:32.957993+00:00",
+    "created_at": "2025-06-12T07:40:20.817128+00:00",
+    "updated_at": "2025-06-12T07:40:20.817128+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8804,
+    "firm_type_id": "VC",
+    "firm_name": "WTI Western Technology Investment",
+    "firm_address_1": "104 La Mesa Drive, Suite 102",
+    "firm_city": "Portola Valley",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "94028",
+    "firm_phone": "(650) 234-4300",
+    "firm_website": "https://westerntech.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/western-technology-investment",
+    "crunchbase_uuid": "321aaefe-527e-a56e-85cd-641bd83cd866",
+    "crunchbase_url": "https://www.crunchbase.com/organization/western-technology-investment",
+    "firm_description": "Western Technology Investment is a venture capital firm that specializes in offering acquisition financing to revenue-generating firms. Since 1980, WTI has helped more than 1,400 companies across major innovation sectors finance their growth while minimizing dilution.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-09T08:20:29.862545+00:00",
+    "created_at": "2025-06-12T07:40:20.521909+00:00",
+    "updated_at": "2025-06-12T07:40:20.521909+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8762,
+    "firm_type_id": "VC",
+    "firm_name": "Watermark Venture Capital",
+    "firm_address_1": "620 Newport Center Drive, St 1100",
+    "firm_city": "Newport Beach",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_zip": "92660",
+    "firm_website": "https://www.watermarkvc.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/watermark-venture-capital",
+    "crunchbase_uuid": "d5588580-477d-4d80-9fcc-27e496c6050b",
+    "crunchbase_url": "https://www.crunchbase.com/organization/watermark-ventures",
+    "firm_description": "Watermark Venture Capital is a privately held California firm currently deploying capital for growth strategy companies, specializing in various sectors including Artificial Intelligence, SaaS, Cloud, Robotics, and more.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet",
+      "Business Services"
+    ],
+    "last_checked": "2025-05-09T08:12:44.288178+00:00",
+    "created_at": "2025-06-12T07:40:09.084911+00:00",
+    "updated_at": "2025-06-12T07:40:09.084911+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8709,
+    "firm_type_id": "VC",
+    "firm_name": "Hinge Capital",
+    "firm_city": "Austin",
+    "firm_state": "Texas",
+    "firm_country": "United States",
+    "firm_website": "http://venture51.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/hingecapital",
+    "firm_description": "Hinge Capital, formerly known as Venture51, is a venture capital firm based in Austin, Texas. The firm focuses on investing in high technology companies, employing a modern venture platform to support promising founders and their ventures.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-09T08:02:10.252410+00:00",
+    "created_at": "2025-06-12T07:39:54.124472+00:00",
+    "updated_at": "2025-06-12T07:39:54.124472+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8697,
+    "firm_type_id": "VC",
+    "firm_name": "Vedanta Capital",
+    "firm_address_1": "250 West 55th Street, Suite 16C",
+    "firm_city": "New York",
+    "firm_state": "NY",
+    "firm_country": "United States",
+    "firm_zip": "10019",
+    "firm_phone": "+1 212 710 5220",
+    "firm_website": "https://vedacap.com/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/vedanta-capital",
+    "crunchbase_uuid": "1c33e006-0d8f-d8f5-c3d6-39a161dd7242",
+    "crunchbase_url": "https://www.crunchbase.com/organization/vedanta-capital",
+    "firm_description": "Vedanta Capital is a venture capital firm formed in 2006, and currently manages $600M in total commitments. The firm provides limited partners access to leading venture capital and growth equity funds. It focuses on investing in innovative companies that show promise in various industries and supports them to foster growth.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Series B"
+    ],
+    "firm_aum": 600,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-09T08:00:20.226098+00:00",
+    "created_at": "2025-06-12T07:39:50.541591+00:00",
+    "updated_at": "2025-06-12T07:39:50.541591+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8680,
+    "firm_type_id": "VC",
+    "firm_name": "UpWest Labs",
+    "firm_country": "United States",
+    "firm_website": "https://upwest.vc/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/upwest-vc",
+    "crunchbase_uuid": "a7d96886-7467-ce1a-db6c-06b293e26ed1",
+    "crunchbase_url": "https://www.crunchbase.com/organization/upwest-labs",
+    "twitter_url": "https://twitter.com/upwestvc",
+    "facebook_url": "https://www.facebook.com/UpWest.vc",
+    "firm_description": "UpWest is a seed fund investing in Israel\u2019s most promising entrepreneurs targeting the US market with strategic support and resources to help them succeed in a competitive environment. With a focus on innovative technology startups, UpWest Labs aims to bridge the gap between Israeli talent and the American market, providing mentorship, funding, and networking opportunities. The firm is dedicated to fostering growth and facilitating the success of its portfolio companies, ensuring they are well-positioned for sustained success.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-09T07:55:52.213708+00:00",
+    "created_at": "2025-06-12T07:39:45.661760+00:00",
+    "updated_at": "2025-06-12T07:39:45.661760+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8678,
+    "firm_type_id": "VC",
+    "firm_name": "Upscale Strategies",
+    "firm_city": "Boulder",
+    "firm_state": "Colorado",
+    "firm_country": "United States",
+    "firm_website": "https://www.upscale.vc/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/upscalefund",
+    "firm_description": "Upscale Strategies is a venture capital firm focused on investing in early-stage technology companies. Founded in 2017, the firm is based in Boulder, Colorado, and aims to mentor and support startups in their growth journey.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology"
+    ],
+    "last_checked": "2025-05-09T07:55:36.780357+00:00",
+    "created_at": "2025-06-12T07:39:45.063083+00:00",
+    "updated_at": "2025-06-12T07:39:45.063083+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8647,
+    "firm_type_id": "VC",
+    "firm_name": "Twin Peaks Capital",
+    "firm_city": "San Francisco",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_website": "http://twinpeaks.capital",
+    "firm_linkedin_url": "https://www.linkedin.com/company/twinpeaks-capital",
+    "crunchbase_uuid": "2432642d-e5ad-40ba-888c-31a86a760ed3",
+    "crunchbase_url": "https://www.crunchbase.com/organization/twin-peaks-capital",
+    "twitter_url": "https://twitter.com/twinpeaks_cap",
+    "firm_description": "Twin Peaks Capital (\u201cTPC\u201d) is an investment firm that seeks long-term superior return from mega trends. We build our conviction through in-depth industry analysis and investment opportunities.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Financial Services",
+      "Software & Internet"
+    ],
+    "last_checked": "2025-05-09T07:49:31.918551+00:00",
+    "created_at": "2025-06-12T07:39:37.715848+00:00",
+    "updated_at": "2025-06-12T07:39:37.715848+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8641,
+    "firm_type_id": "VC",
+    "firm_name": "Tuesday Capital",
+    "firm_address_1": "1 Bluxome St",
+    "firm_city": "San Francisco",
+    "firm_state": "CA",
+    "firm_country": "United States",
+    "firm_zip": "94107",
+    "firm_website": "https://tuesday.vc/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/tuesdaycapital",
+    "crunchbase_uuid": "d53f379c-7f9c-4b4e-af5b-f09b2d64f88e",
+    "crunchbase_url": "https://www.crunchbase.com/organization/tuesday-capital",
+    "twitter_url": "https://twitter.com/tuesdaycapital",
+    "facebook_url": "https://www.facebook.com/TuesdayCapital",
+    "firm_description": "Tuesday Capital (formerly CrunchFund) has been helping early-stage founders build the companies of tomorrow since 2011. They have backed over 350 startups, including several unicorns, IPOs, and acquisitions. Tuesday Capital is dedicated to supporting founders throughout their journeys while solving major global challenges.",
+    "firm_stages": [
+      "Seed",
+      "Series A"
+    ],
+    "firm_aum": 0,
+    "firm_focus": [
+      "Information Technology",
+      "Life Sciences & Healthcare",
+      "Financial Services"
+    ],
+    "last_checked": "2025-05-09T07:47:48.081052+00:00",
+    "created_at": "2025-06-12T07:39:35.891794+00:00",
+    "updated_at": "2025-06-12T07:39:35.891794+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  },
+  {
+    "firm_id": 8626,
+    "firm_type_id": "VC",
+    "firm_name": "Tribe Capital",
+    "firm_city": "Menlo Park",
+    "firm_state": "California",
+    "firm_country": "United States",
+    "firm_website": "http://www.tribecap.co/",
+    "firm_linkedin_url": "https://www.linkedin.com/company/tribe-capital-partners",
+    "crunchbase_uuid": "f065b291-ae61-41db-9475-3713a3da36d4",
+    "crunchbase_url": "https://www.crunchbase.com/organization/tribe-capital",
+    "twitter_url": "https://twitter.com/tribecap",
+    "facebook_url": "https://www.facebook.com/TribeCap",
+    "firm_description": "Tribe Capital is a $1.8B AUM venture capital firm focused on harnessing AI and data science to deploy capital with precision into N-of-1 companies.",
+    "firm_stages": [
+      "Seed",
+      "Series A",
+      "Late Stage"
+    ],
+    "firm_aum": 1800,
+    "firm_focus": [
+      "Software & Internet",
+      "Information Technology",
+      "Life Sciences & Healthcare"
+    ],
+    "last_checked": "2025-05-09T07:45:19.687960+00:00",
+    "created_at": "2025-06-12T07:39:31.322915+00:00",
+    "updated_at": "2025-06-12T07:39:31.322915+00:00",
+    "industry_names": [],
+    "search_metadata": {
+      "firm_types": [
+        "Venture Capital Investor"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence"
+      ],
+      "investment_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "max_results": 100,
+      "order_by": "created_at",
+      "order_direction": "desc",
+      "include_contacts": true,
+      "search_timestamp": "2026-04-06T18:15:01.863515",
+      "total_results_found": 100,
+      "query_execution_time": 0.574707
+    },
+    "investor_contacts": [],
+    "enriched": true
+  }
+]
