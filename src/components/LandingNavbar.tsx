@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 interface LandingNavbarProps {
-    activePage: "founders" | "fund-managers" | "insights" | "pricing";
+    activePage: "founders" | "fund-managers" | "news" | "pricing";
 }
 
 export function LandingNavbar({ activePage }: LandingNavbarProps) {
@@ -42,11 +42,11 @@ export function LandingNavbar({ activePage }: LandingNavbarProps) {
                     <a
                         className={cn(
                             "transition-all duration-200 cursor-pointer pb-1",
-                            activePage === "insights" ? "text-primary border-b-2 border-primary" : "text-on-surface/70 hover:text-primary"
+                            activePage === "news" ? "text-primary border-b-2 border-primary" : "text-on-surface/70 hover:text-primary"
                         )}
-                        onClick={() => router.push("/insights")}
+                        onClick={() => router.push("/news")}
                     >
-                        Insights
+                        News
                     </a>
                     <a
                         className={cn(

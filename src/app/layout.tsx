@@ -68,12 +68,12 @@ export default function RootLayout({
   const isHomePage = pathname === "/";
   const isAuthPage = pathname?.startsWith("/login") || pathname?.startsWith("/signup") || pathname?.startsWith("/forgot-password");
   const isAdminPage = pathname?.startsWith("/admin");
-  const isInsightsPage = pathname?.startsWith("/insights");
+  const isNewsPage = pathname?.startsWith("/news");
   const isLandingPage = pathname?.startsWith("/fund-managers") || pathname?.startsWith("/pricing");
   const isOnboardingPage = pathname === "/onboarding";
 
   // These pages use full-page high-fidelity designs without a sidebar
-  const isFullPage = isHomePage || isAuthPage || isInsightsPage || isLandingPage || isOnboardingPage;
+  const isFullPage = isHomePage || isAuthPage || isNewsPage || isLandingPage || isOnboardingPage;
 
   return (
     <html lang="en" suppressHydrationWarning className="light">
